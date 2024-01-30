@@ -56,7 +56,9 @@ class Intern extends Employee{
     }
 
     // limit intern salary
-    public void setSalary(float salary){
+
+    @Override
+    public void setSalary(int salary){
         if(salary > MAX_SALARY){
             System.err.println("Salary intern cannot be superior than 20000");
         } else {
