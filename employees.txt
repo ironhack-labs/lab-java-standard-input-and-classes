@@ -26,7 +26,7 @@ Salary: 65000.0
 Name: employee6
 Email: employee6@gmail.com
 Age: 30
-Salary: 30000.0
+Salary: 20000.0
 
 Name: employee7
 Email: employee7@gmail.com
