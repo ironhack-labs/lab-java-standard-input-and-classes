@@ -9,7 +9,7 @@ public class Main {
                 new Employee("Alice", "alice@example.com", 30, 70000),
                 new Employee("Charlie", "charlie@example.com", 24, 48000),
                 new Intern("Eva", "eva@example.com", 26, 15000),
-                new Intern("David", "david@example.com", 29, 22000),
+                new Intern("David", "david@example.com", 29, 20000),
                 new Intern("Grace", "grace@example.com", 23, 12000),
                 new Intern("Frank", "frank@example.com", 27, 16000),
                 new Intern("Helen", "helen@example.com", 31, 19000)

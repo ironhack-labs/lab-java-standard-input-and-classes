@@ -3,12 +3,13 @@ class Intern extends Employee {
 
     public Intern(String name, String email, int age, double salary) {
         super(name, email, age, salary);
+        setSalary(salary);
     }
 
     @Override
     public void setSalary(double salary) {
         if (salary > MAX_SALARY) {
-            throw new IllegalArgumentException("Intern salary cannot exceed the maximum allowed value.");
+            throw new IllegalArgumentException("El salario máximo para un becario es de " + MAX_SALARY + "€");
         } else {
             super.setSalary(salary);
         }
