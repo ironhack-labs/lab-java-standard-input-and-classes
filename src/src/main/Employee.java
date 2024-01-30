@@ -62,6 +62,7 @@ class Intern extends Employee{
         } else {
             setSalary(salary);
         }
+
     }
 }
 
