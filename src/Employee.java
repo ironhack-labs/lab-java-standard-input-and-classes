@@ -9,7 +9,7 @@ public class Employee {
         this.name = name;
         this.email = email;
         this.age = age;
-        this.salary = salary < 0 ? 0 : salary;
+        setSalary(salary);
         System.out.println(this);
     }
 

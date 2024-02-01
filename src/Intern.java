@@ -4,8 +4,8 @@ public class Intern extends Employee {
 
     public Intern(String name, String email, int age, double salary) {
         super(name, email, age, salary);
-        setSalary(salary);
     }
+
     @Override
     public void setSalary(double salary) {
         if (salary > SALARY_LIMIT) {
@@ -15,4 +15,5 @@ public class Intern extends Employee {
             super.setSalary(salary);
         }
     }
+
 }
