@@ -10,12 +10,7 @@ public class Employee {
         this.email = email;
         this.age = age;
         this.salary = salary < 0 ? 0 : salary;
-    }
-
-    public Employee(String name, String email, int age) {
-        this.name = name;
-        this.email = email;
-        this.age = age;
+        System.out.println(this);
     }
 
     public String getName() {
@@ -48,5 +43,15 @@ public class Employee {
 
     public void setSalary(double salary) {
         this.salary = salary;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", age=" + age +
+                ", salary=" + salary +
+                '}';
     }
 }
